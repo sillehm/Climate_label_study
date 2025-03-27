@@ -8,7 +8,7 @@
     <Param val="u'data/%s_%s_%s' % (expInfo['Deltager ID'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
     <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
     <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
-    <Param val="{'Deltager ID': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="{'Deltager ID': 'f&quot;{randint(0, 999999):05.0f}&quot;', 'Alder': '', 'Køn': &quot;['Kvinde', 'Mand', 'Andet']&quot;}" valType="code" updates="None" name="Experiment info"/>
     <Param val="True" valType="bool" updates="None" name="Force stereo"/>
     <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
     <Param val="" valType="str" updates="None" name="HTML path"/>
