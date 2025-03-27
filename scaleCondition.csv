@@ -1,0 +1,4 @@
+scale_condition,scaleImage
+labels,scales/scale_labels.png
+original,scales/scale_original.png
+linear,scales/scale_linear.png
